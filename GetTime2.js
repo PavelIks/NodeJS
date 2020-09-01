@@ -8,6 +8,5 @@
 	else if	(hour >= 18 && hour < 24)	{ greeting = "Добрый вечер!"; }
 	else if	(hour >= 24 && hour < 5)	{ greeting = "Доброй ночи!"; }
 	return greeting;
-	
 }
 GetTime()
